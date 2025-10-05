@@ -25,7 +25,7 @@ public class FlutterVlcPlayerPlugin implements FlutterPlugin, ActivityAware {
         flutterPluginBinding = binding;
 
         //
-        if (flutterVlcPlayerFactory == null) {
+        // if (flutterVlcPlayerFactory == null) {
             final FlutterInjector injector = FlutterInjector.instance();
             //
             flutterVlcPlayerFactory =
@@ -42,7 +42,7 @@ public class FlutterVlcPlayerPlugin implements FlutterPlugin, ActivityAware {
                             flutterVlcPlayerFactory
                     );
             //
-        }
+        // }
         startListening();
     }
 
